@@ -1,27 +1,30 @@
-@media (max-width:913px) {
-    .section img{
-        max-width: 340px;
-    }
-    .section-text h1{
+@media (max-width: 913px) {
+  .section img {
     max-width: 340px;
-    }
-    .section-text p{
-        max-width: 330px;
-    }
+  }
+  .section-text h1 {
+    max-width: 340px;
+  }
+  .section-text p {
+    max-width: 330px;
+  }
 }
-@media (max-width:615px) {
-    .section{
-        flex-direction: column-reverse;
-    }    
+@media (max-width: 615px) {
+  .section {
+    flex-direction: column-reverse;
+  }
 }
-@media (max-width:430px) {
-    .header nav a{
-        display: none;
-    }
-    .burger-menu ion-icon{
-        display: flex;
-        top: -4px;
-    }
-    .header{
-    }
+@media (max-width: 430px) {
+  .header nav a {
+    display: none;
+  }
+  .burger-menu ion-icon {
+    display: flex;
+    top: -4px;
+  }
+  .header {
+    max-width: 335px;
+    width: 100%;
+    margin: auto;
+  }
 }

@@ -102,10 +102,50 @@ body {
 }
 .section-k h2 {
   font-family: Orbitron, sans-serif;
-  font-size: clamp(1rem, 0.795rem + 1.02vw, 1.563rem) ;
+  font-size: clamp(1rem, 0.795rem + 1.02vw, 1.563rem);
 }
 .section-k h2 span {
   font-family: Poppins, sans-serif;
   font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
 }
 /* !section-end----------------------------------------------------- */
+/* !is----------------------------------------------------start */
+.is {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.is img {
+  max-width: 400px;
+}
+.is-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: self-start;
+}
+.is-text h1 {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
+}
+.is-text h1 span {
+  font-family: Orbitron, sans-serif;
+  color: rgb(149, 173, 246);
+}
+.is-text p{
+  color: #FFFFFFCC;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  font-family: Poppins, sans-serif;
+  line-height: 25px;
+  max-width: 350px;
+}
+.is-text button{
+  padding: 15px 35px;
+  color: #fff;
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);  
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+/* !ix\s end-------------------------------------------------------------------------- */

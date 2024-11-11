@@ -9,9 +9,30 @@
     max-width: 330px;
   }
 }
+@media (max-width: 711px) {
+  .is img {
+    max-width: 350px;
+  }
+}
+@media (max-width: 678px) {
+  .is-text p {
+    font-size: 14px;
+  }
+}
 @media (max-width: 615px) {
   .section {
     flex-direction: column-reverse;
+  }
+  .section-k {
+    max-width: 330px;
+    width: 100%;
+  }
+  .section-text p {
+    max-width: 280px;
+  }
+  .is{
+    flex-direction: column;
+   align-items: center;
   }
 }
 @media (max-width: 430px) {

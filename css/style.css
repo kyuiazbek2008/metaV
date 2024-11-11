@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+body {
+  background: rgb(13, 3, 23);
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+}
+#header {
+  padding-block: 30px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.header h1 {
+  font-family: Orbitron, sans-serif;
+  color: #fff;
+  font-size: clamp(0.875rem, 0.648rem + 1.14vw, 1.5rem);
+}
+.header nav {
+  display: flex;
+  gap: 30px;
+}
+.header nav a {
+  font-family: Orbitron, sans-serif;
+  color: #fff;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+.burger-menu ion-icon {
+  color: #fff;
+  font-size: 26px;
+  display: none;
+  position: absolute;
+  right: 0;
+  top: -2px;
+}
+/* !section start------------------------------------------------- */
+#section {
+  padding-block: 40px;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.section img {
+  max-width: 400px;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section-text h1 {
+  font-family: Orbitron, sans-serif;
+  color: #fff;
+  font-size: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+  max-width: 400px;
+}
+.section-text h1 span {
+  background: linear-gradient(97.16deg, #f86cf8 12.04%, #64cef5 81.84%);
+  font-size: clamp(1.5rem, 1.045rem + 2.27vw, 2.75rem);
+}
+.section-text p {
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: clamp(0.75rem, 0.568rem + 0.91vw, 1.25rem);
+  font-weight: 500;
+  max-width: 420px;
+}
+.section-btn {
+  display: flex;
+  gap: 30px;
+}
+.section-btn button {
+  padding: 15px 35px;
+  color: #fff;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  border-radius: 4px;
+}
+.section-btn button:first-child {
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  border: none;
+}
+.section-btn button:last-child {
+  border: 1px solid #d10ed1;
+  background: rgb(13, 3, 23);
+}
+.section-k {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+.section-k h2 {
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1rem, 0.795rem + 1.02vw, 1.563rem) ;
+}
+.section-k h2 span {
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+/* !section-end----------------------------------------------------- */

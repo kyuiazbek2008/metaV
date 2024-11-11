@@ -30,9 +30,9 @@
   .section-text p {
     max-width: 280px;
   }
-  .is{
+  .is {
     flex-direction: column;
-   align-items: center;
+    align-items: center;
   }
 }
 @media (max-width: 430px) {
@@ -47,5 +47,37 @@
     max-width: 335px;
     width: 100%;
     margin: auto;
+  }
+  .work{
+    max-width: 440px;
+    width: 100%;
+  }
+  .work-1{
+    max-width: 320px;
+    width: 100%;
+  }
+  .work-box {
+    justify-content: center;
+  }
+  .work p {
+    max-width: 350px;
+  }
+  .work h1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+  }
+  .menu ion-icon {
+    display: flex;
+  }
+  .work-1:nth-last-child(1) {
+    display: none;
+  }
+  .work-1:nth-last-child(2) {
+    display: none;
+  }
+  .work-1:nth-last-child(3) {
+    display: none;
   }
 }

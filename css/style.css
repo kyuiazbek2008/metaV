@@ -135,17 +135,118 @@ body {
   font-family: Orbitron, sans-serif;
   color: rgb(149, 173, 246);
 }
-.is-text p{
-  color: #FFFFFFCC;
+.is-text p {
+  color: #ffffffcc;
   font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
   font-family: Poppins, sans-serif;
   line-height: 25px;
   max-width: 350px;
 }
-.is-text button{
+.is-text button {
   padding: 15px 35px;
   color: #fff;
-  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);  
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
   font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  border: none;
+  border-radius: 4px;
 }
 /* !ix\s end-------------------------------------------------------------------------- */
+/* !------------------------------------------------work------------------------------star */
+#work {
+  padding-block: 100px;
+}
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-block: 30px;
+  position: relative;
+}
+.work h1 {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
+}
+.menu ion-icon {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  top: 42px;
+  right: 80px;
+  display: none;
+}
+.work h1 span {
+  font-family: Orbitron, sans-serif;
+  color: rgb(149, 173, 246);
+  font-size: clamp(1.25rem, 0.909rem + 1.7vw, 2.188rem);
+}
+.work p {
+  color: #ffffffcc;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+  max-width: 510px;
+  text-align: center;
+  line-height: 25px;
+}
+.work-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.work-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 280px;
+  width: 100%;
+  background: #090823;
+  padding: 15px;
+  border-top-right-radius: 25px;
+}
+.work-1 img {
+  max-width: 350px;
+  border-top-right-radius: 25px;
+}
+.work-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.work-2 h1 {
+  color: #fff;
+  font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
+  font-family: Orbitron, sans-serif;
+}
+.work-2 p {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+  max-width: 350px;
+  line-height: 25px;
+}
+.work-3 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.work-3 button {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+.work-3 button:first-child {
+  background: linear-gradient(97.16deg, #d10ed1 12.04%, #10a3da 81.84%);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 25px;
+}
+.work-3 button:last-child {
+  border: 1px solid #d10ed1;
+  background: #090823;
+  border-radius: 4px;
+  padding: 15px 25px;
+}
+/* !work-end----------------------------------------------------------------------- */

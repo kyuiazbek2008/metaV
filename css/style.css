@@ -250,3 +250,114 @@ body {
   padding: 15px 25px;
 }
 /* !work-end----------------------------------------------------------------------- */
+/* !uor----------------------------------------starr */
+#our {
+  padding-block: 50px;
+}
+.our {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 50px;
+}
+.our h1 {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.125rem, 0.739rem + 1.93vw, 2.188rem);
+}
+.our h1 span {
+  color: #10a3da;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.125rem, 0.739rem + 1.93vw, 2.188rem);
+}
+.our p {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+  max-width: 470px;
+  text-align: center;
+}
+.our-1 {
+  position: relative;
+}
+#pp1 {
+  max-width: 1000px;
+  width: 100%;
+}
+#pp11 {
+  position: absolute;
+  top: 250px;
+  right: 440px;
+}
+.our-1 h1 {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  color: #fff;
+  font-size: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
+  font-family: Orbitron, sans-serif;
+}
+/* !our--------------------------------------------end-------------------------------- */
+#footer {
+  padding-block: 50px;
+  background: #090823;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_text h1 {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(1.563rem, 1.108rem + 2.27vw, 2.813rem);
+}
+.footer_text p {
+  color: #fff;
+  max-width: 300px;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+}
+.footer-1 {
+  display: flex;
+  gap: 40px;
+}
+.footer-1 h2 {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+}
+.footer-1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.footer-1 ul li {
+  color: #fff;
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
+}
+.footer-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-2 h2 {
+  color: #fff;
+  font-family: Orbitron, sans-serif;
+  font-size: clamp(0.875rem, 0.739rem + 0.68vw, 1.25rem);
+}
+.footer-2 p {
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+}
+.footer-3 {
+  display: flex;
+  gap: 20px;
+}

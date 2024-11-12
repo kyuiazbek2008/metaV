@@ -69,7 +69,7 @@
     padding: 40px; 
     gap: 20px;
   }
-  .footer-2 {
+  .footer-2 h2{
     display: none;
   }
 }

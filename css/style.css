@@ -279,10 +279,10 @@ body {
 }
 .our-1 {
   position: relative;
+  display: flex;
 }
 #pp1 {
   max-width: 1000px;
-  width: 100%;
 }
 #pp11 {
   position: absolute;

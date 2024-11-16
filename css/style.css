@@ -10,6 +10,7 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: auto;
+  padding-inline: 40px;
 }
 #header {
   padding-block: 30px;
@@ -286,20 +287,20 @@ body {
 }
 #pp11 {
   position: absolute;
-  top: 250px;
-  right: 440px;
+  top: 220px;
+  right: 450px;
 }
 .our-1 h1 {
   position: absolute;
   bottom: 40px;
-  left: 40px;
+  left: 80px;
   color: #fff;
   font-size: clamp(1.25rem, 0.795rem + 2.27vw, 2.5rem);
   font-family: Orbitron, sans-serif;
 }
 /* !our--------------------------------------------end-------------------------------- */
 #footer {
-  padding-block: 30px;
+  /* padding-block: 30px; */
   background: #090823;
 }
 .footer {

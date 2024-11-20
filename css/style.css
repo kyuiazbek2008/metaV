@@ -10,7 +10,6 @@ body {
   max-width: 1000px;
   width: 100%;
   margin: auto;
-  padding-inline: 40px;
 }
 #header {
   padding-block: 30px;
@@ -44,9 +43,7 @@ body {
   top: -2px;
 }
 /* !section start------------------------------------------------- */
-#section {
-  padding-block: 40px;
-}
+
 .section {
   display: flex;
   justify-content: space-between;
@@ -300,7 +297,6 @@ body {
 }
 /* !our--------------------------------------------end-------------------------------- */
 #footer {
-  /* padding-block: 30px; */
   background: #090823;
 }
 .footer {

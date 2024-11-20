@@ -465,7 +465,10 @@
     width: 100%;
   }
   .header {
-    max-width: 261px;
+    max-width: 258px;
     width: 100%;
+  }
+  .footer{
+    padding: 17px
   }
 }

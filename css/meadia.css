@@ -168,9 +168,6 @@
     max-width: 338px;
     width: 100%;
   }
-  .work p {
-    text-align: center;
-  }
 }
 @media (max-width: 685px) {
   #pp1 {

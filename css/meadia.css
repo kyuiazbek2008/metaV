@@ -438,6 +438,9 @@
   .section-btn button {
     font-size: 11px;
   }
+  .footer{
+    padding: 11px;
+  }
 }
 @media (max-width: 350px) {
   .header {

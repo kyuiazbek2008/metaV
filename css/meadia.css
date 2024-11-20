@@ -18,7 +18,7 @@
     padding-inline: 20px;
   }
   #pp1 {
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
 
     max-width: 900px;
   }
@@ -35,7 +35,7 @@
 @media (max-width: 1000px) {
   #pp1 {
     max-width: 800px;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
   }
   .our-1 {
     justify-content: center;
@@ -50,7 +50,7 @@
 @media (max-width: 925px) {
   #pp1 {
     max-width: 800px;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
   }
   .our-1 {
     justify-content: center;
@@ -93,8 +93,8 @@
     max-width: 250px;
   }
   #pp1 {
-    max-width: 600px;
-    padding-inline: 20px;
+    max-width: 702px;
+    /* padding-inline: 20px; */
   }
   .our-1 {
     justify-content: center;
@@ -104,8 +104,9 @@
     font-size: 33px;
   }
   #pp11 {
-    top: 165px;
-    right: 350px;
+    top: 160px;
+    right: 319px;
+
     max-width: 100px;
   }
 }
@@ -147,7 +148,7 @@
   }
   #pp1 {
     max-width: 600px;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
   }
   .our-1 {
     justify-content: center;
@@ -231,7 +232,7 @@
 @media (max-width: 598px) {
   #pp1 {
     max-width: 480px;
-    padding-inline: 20px;
+    /* padding-inline: 20px; */
   }
   .our-1 {
     justify-content: center;
@@ -255,8 +256,8 @@
 }
 @media (max-width: 539px) {
   #pp1 {
-    max-width: 350px;
-    padding-inline: 20px;
+    max-width: 290px;
+    /* padding-inline: 20px; */
   }
 }
 @media (max-width: 504px) {

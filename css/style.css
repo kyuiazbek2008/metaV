@@ -79,7 +79,7 @@ body {
 }
 .section-btn {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
 }
 .section-btn button {
   padding: 15px 35px;

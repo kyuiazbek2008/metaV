@@ -43,7 +43,9 @@ body {
   top: -2px;
 }
 /* !section start------------------------------------------------- */
-
+#section{
+  padding-block: 50px;
+}
 .section {
   display: flex;
   justify-content: space-between;
@@ -184,7 +186,7 @@ body {
   font-family: Orbitron, sans-serif;
   font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
   max-width: 510px;
-  text-align: center;
+  /* text-align: center; */
   line-height: 25px;
 }
 .work-box {
@@ -256,7 +258,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-block: 40px;
+  /* padding-block: 40px; */
   gap: 20px;
 }
 .our h1 {
@@ -274,7 +276,6 @@ body {
   font-family: Poppins, sans-serif;
   font-size: clamp(0.75rem, 0.614rem + 0.68vw, 1.125rem);
   max-width: 470px;
-  text-align: center;
 }
 .our-1 {
   position: relative;
